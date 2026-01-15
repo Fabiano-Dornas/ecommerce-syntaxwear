@@ -1,0 +1,97 @@
+/*
+ Andy Bell's CSS Reset
+ https://piccalil.li/blog/a-modern-css-reset
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+hr {
+    height: 0; /* 1 */
+    color: inherit; /* 2 */
+    border: 0; /* 3 */
+    border-top: 1px solid; /* 4 */
+}
+
+pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+a {
+    background-color: transparent; /* 1 */
+}
+
+abbr[title] {
+    text-decoration: underline; /* 1 */
+    text-decoration: underline dotted; /* 2 */
+}
+
+b,
+strong {
+    font-weight: bolder; /* 1 */
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+}
+
+small {
+    font-size: 80%; /* 1 */
+}
+
+img {
+    border-style: none; /* 1 */
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit; /* 1 */
+    font-size: inherit; /* 2 */
+    line-height: inherit; /* 3 */
+}
+
+button,
+input {
+    overflow: visible; /* 1 */
+}
+
+button,
+select { /* 1 */
+    text-transform: none; /* 2 */
+}
+
+[type="button"] {
+    cursor: pointer; /* 1 */
+}
+
+textarea {
+    overflow: auto; /* 1 */
+}
+
+[hidden] {
+    display: none; /* 1 */
+}
