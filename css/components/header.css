@@ -1,1 +1,31 @@
 /* header.css */
+.header {
+    background-color: blueviolet;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: calc(100% - 40px);
+    border-radius: 15px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 28px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-center {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.nav-center a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
