@@ -42,16 +42,7 @@
     color: #ffffff;
 }
 
-.btn{
-    font-size: 1.25rem;
-    width: 161px;
-    height: 48px;
-    border-radius: 25px;
-    color: #ffffff;
-    font-weight: 400;
-    padding: 10px 20px;
-    transition: background-color 0.3s, color 0.3s, border 0.3s;
-}
+
 
 .btn-outline{
     border: 2px solid #ffffff;
@@ -70,6 +61,6 @@
 }
 
 .btn-filled:hover{
-    background-color: #7c3aed;
+    background-color: #6329A2;
     color: #ffffff;
 }
