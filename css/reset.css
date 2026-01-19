@@ -37,6 +37,12 @@ pre {
 
 a {
     background-color: transparent; /* 1 */
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none; /* 1 */
+    text-decoration: none;
 }
 
 abbr[title] {
